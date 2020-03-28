@@ -15,11 +15,11 @@ import problem5.student.Student;
 public class MyMain {
     public static void main(String[] args) {
         MyPriorityQueue queue = new MyPriorityQueue();
-        queue.enQueue(new Node(new Student(14, "badal")));
-        queue.enQueue(new Node(new Student(8, "anubhav")));
+        queue.enQueue(new Node(new Student(14, "Nikhil")));
+        queue.enQueue(new Node(new Student(8, "Ved")));
         queue.enQueue(new Node(new Student(35, "Om")));
-        queue.enQueue(new Node(new Student(1, "Amir")));
-        queue.enQueue(new Node(new Student(16, "Radhey")));
+        queue.enQueue(new Node(new Student(1, "Mayank")));
+        queue.enQueue(new Node(new Student(16, "Rajan")));
         queue.printQueue();
 
 

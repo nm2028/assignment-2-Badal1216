@@ -15,7 +15,7 @@ import java.util.ArrayList;
 public class MyMain {
     public static void main(String[] args) {
         ArrayList<Student> studentList = new ArrayList<>();
-        studentList.add(new Student(1, "Badal", 0, 7));
+        studentList.add(new Student(1, "Nikhil", 0, 7));
         studentList.add(new Student(2, "Thor", 2, 1));
         studentList.add(new Student(3, "Hulk", 7, 3));
         studentList.add(new Student(4, "IronMan", 1, 5));
