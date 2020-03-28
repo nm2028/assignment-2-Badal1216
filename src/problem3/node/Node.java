@@ -13,10 +13,19 @@ public class Node {
     private Student student;
     private Node next;
 
+    public Node(Student student) {
+        this.student = student;
+        next = null;
+    }
+
     public Node(int data, Student student) {
         this.data = data;
         this.student = student;
         next = null;
+    }
+
+    public Node(int data) {
+        this.data = data;
     }
 
     public Student getData() {
